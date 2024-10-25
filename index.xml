@@ -504,6 +504,13 @@ all multihash headers in "draft" status, is
         <t>Reference: this document</t>
         <t>Status: current</t>
 
+      <t>
+        The hash value used to create ni URIs is formed by base64url-encoding (without "=" padding characters) the whole multihash, i.e. the hash function identifier, the digest length, and the digest value concatenated.
+        As an illustration, the <eref target="#tv-blake2s128">blake2s128</eref> example multihash would form this URI:
+        <figure>
+          <artwork>ni:///mh;0OQCEApOxvFinkkmLXCT4vgqMng</artwork>
+        </figure> 
+      </t>
     </section>
   </section>
 </back>
