@@ -389,10 +389,10 @@ digest: 0x52eb4dd19f1ec522859e12d89706156570f8fbab1824870bc6f8c7d235eef5f4c2cbba
 
     <section anchor="tv-blake2b512" title="blake2b512">
       <t><figure><artwork>
-0xb24040d91ae0cb0e48022053ab0f8f0dc78d28593d0f1c13ae39c9b169c136a779f21a0496337b6f776a73c1742805c1cc15e792ddb3c92ee1fe300389456ef3dc97e2
+0xc0e40240d91ae0cb0e48022053ab0f8f0dc78d28593d0f1c13ae39c9b169c136a779f21a0496337b6f776a73c1742805c1cc15e792ddb3c92ee1fe300389456ef3dc97e2
       </artwork></figure></t>
       <t>
-The fields for this multihash are - hashing function: blake2b-512 (0xb240),
+The fields for this multihash are - hashing function: blake2b-512 (0xb240, encoded as 0xc0e402),
 length: 64 (0x40),
 digest: 0xd91ae0cb0e48022053ab0f8f0dc78d28593d0f1c13ae39c9b169c136a779f21a0496337b6f776a73c1742805c1cc15e792ddb3c92ee1fe300389456ef3dc97e2
       </t>
@@ -400,10 +400,10 @@ digest: 0xd91ae0cb0e48022053ab0f8f0dc78d28593d0f1c13ae39c9b169c136a779f21a049633
 
     <section anchor="tv-blake2b256" title="blake2b256">
       <t><figure><artwork>
-0xb220207d0a1371550f3306532ff44520b649f8be05b72674e46fc24468ff74323ab030
+0xa0e402207d0a1371550f3306532ff44520b649f8be05b72674e46fc24468ff74323ab030
       </artwork></figure></t>
       <t>
-The fields for this multihash are - hashing function: blake2b-256 (0xb220),
+The fields for this multihash are - hashing function: blake2b-256 (0xb220, encoded as 0xa0e402),
 length: 32 (0x20),
 digest: 0x7d0a1371550f3306532ff44520b649f8be05b72674e46fc24468ff74323ab030
       </t>
@@ -411,10 +411,10 @@ digest: 0x7d0a1371550f3306532ff44520b649f8be05b72674e46fc24468ff74323ab030
 
     <section anchor="tv-blake2s256" title="blake2s256">
       <t><figure><artwork>
-0xb26020a96953281f3fd944a3206219fad61a40b992611b7580f1fa091935db3f7ca13d
+0xe0e40220a96953281f3fd944a3206219fad61a40b992611b7580f1fa091935db3f7ca13d
       </artwork></figure></t>
       <t>
-The fields for this multihash are - hashing function: blake2s-256 (0xb260),
+The fields for this multihash are - hashing function: blake2s-256 (0xb260, encoded as 0xe0e402),
 length: 32 (0x20),
 digest: 0xa96953281f3fd944a3206219fad61a40b992611b7580f1fa091935db3f7ca13d
       </t>
@@ -422,10 +422,10 @@ digest: 0xa96953281f3fd944a3206219fad61a40b992611b7580f1fa091935db3f7ca13d
 
     <section anchor="tv-blake2s128" title="blake2s128">
       <t><figure><artwork>
-        0xb250100a4ec6f1629e49262d7093e2f82a3278
+        0xd0e402100a4ec6f1629e49262d7093e2f82a3278
       </artwork></figure></t>
       <t>
-The fields for this multihash are - hashing function: blake2s-128 (0xb250),
+The fields for this multihash are - hashing function: blake2s-128 (0xb250, encoded as 0xd0e402),
 length: 16 (0x10), digest: 0x0a4ec6f1629e49262d7093e2f82a3278
       </t>
     </section>
